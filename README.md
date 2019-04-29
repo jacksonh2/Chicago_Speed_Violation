@@ -53,3 +53,15 @@ Therefore, I would suggest to continuously increase the number of cameras throug
 
 ## Roadmap
 A lot more could have been done to improve the visualizations that I have created so far. In reading the ASE program descriptions and doing research on the feedbacks on the ASE program, I found that there are some controversies about the program, suggesting that the cameras are operating at unauthorized hours and issuing tickets; for instance, the school's safety zone cameras should only opeate from monday to friday, but there have been various incidents where people were caught by the camera on the weekends. Though I attended to create a visualization on this matter, I wasn't able to finalize it because it was extremely hard to determine which cameras are in the school zone (monday-friday) and which ones are in the park zone(operates 7 days a week). I was able to find something like [list of safetyzone](https://www.chicago.gov/content/dam/city/depts/cdot/CSZ/ChildrensSafetyZoneList.pdf)but the address of the safety zone didn't exactly match the address of the cameras, thus making it difficult to merge the two datasets. For the second version, I would love to incorporate this aspect of the matter into my second visualization, to see whether these cameras with the highest average violations are located in school or park zone, and this can definitely advocate my analysis.
+
+
+## References
+https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html
+https://www.chicagotribune.com/news/watchdog/ct-speed-camera-ticket-rules-met-20151118-story.html
+https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
+https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h
+https://www.chicagotribune.com/news/watchdog/ct-speed-camera-bad-tickets-met-20151117-story.html
+https://www.chicago.gov/content/dam/city/depts/cdot/CSZ/ChildrensSafetyZoneList.pdf
+
+
+

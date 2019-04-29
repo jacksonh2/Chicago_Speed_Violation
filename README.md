@@ -10,6 +10,8 @@ The mayor of Chicago, Rahm Emanuel, has been extremely proactive in the automate
 
 I have also used the dataset on [speed camera locations-Chicago Data Portal](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h), which includes the date of which camera went live, which I later used to develop a visualization/finding.
 
+For more information about the program and about speed camera violations, please refer to [city of chicago - ASE](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html) and [city of chicago - ASE FAQ](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement/automated_speed_enforcementfrequentlyaskedquestions.html).
+
 ## Visualization #1 & Finding
 Through the previous data exploration process, I was able to find that there's a decreasing trend from 2014 to 2019, and I decided to take that step further, and used the month function in tableau to develop this line chart below, where on the y axis it's the sum of violations, and the x axis is continous month from 2014 to 2019.
 ![visualization #1](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/Monthly%20sum%20violation%20trend.png)

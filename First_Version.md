@@ -12,9 +12,9 @@ I have also used the dataset on [speed camera locations-Chicago Data Portal](htt
 
 For more information about the program and about speed camera violations, please refer to [city of chicago - ASE](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html) and [city of chicago - ASE FAQ](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement/automated_speed_enforcementfrequentlyaskedquestions.html).
 
-## Visualization #1 & Finding
+## Visualization #1 & Finding & Making-of
 Through the previous data exploration process, I was able to find that there's a decreasing trend from 2014 to 2019, and I decided to take that step further, and used the month function in tableau to develop this line chart below, where on the y axis it's the sum of violations, and the x axis is continous month from 2014 to 2019.
-![visualization #1](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/Monthly%20sum%20violation%20trend.png)
+![visualization #1](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/Monthly%20sum%20violation%20trend-First.png)
 
 I also decided to add a linear trend line to really reflect that decreasing trend in monthly violations, which can be credited towards the automated speed enforcement (ASE) program, and it demonstrates that the program is effective, and the mayor should definitely continue enforcing program.
 
@@ -22,10 +22,10 @@ In terms of data warranging, I decide to take out the first month and the last m
 
 An improvement to this graph is that next time I can perhaps smooth out the lines to get a better visual, and I can also add a forecast model to show the predicted values for the coming years, and these new additions can be benefitical to the mayor in deciding how much of the city's budget should be allocated to the ASE program.
 
-## Visualization #2 & Finding
+## Visualization #2 & Finding & Making-of
 After seeing that the program is slowing the drivers down in the safety zones across the city, the next goal should be to tackle specific problem areas that are causing the most average violations. Since different cameras went live on different times, I created a new calculated field, which uses the sum of violations for that camera, divide by the total number of month between today (april 2019) and the first month that a violation recorded for that particular camera, to get a true average number of violations per camera. Then I ranked it base on this criteria and selected the top 10 cameras that have the highest true average. 
 
-![visualization #2](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/monthly%20average%20top%2010%20cameras.png)
+![visualization #2](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/monthly%20average%20top%2010%20cameras-First.png)
 
 From this visualization we can see that the distribution of the top 10 cameras is pretty centered in the northern part of Chicago. A suggestion to the mayor is to perhaps either install more cameras in the northern region of Chicago or to increase the fines of speeding in the northern part to further punish this speeding behavior.
 
@@ -33,10 +33,10 @@ A map would be the best for this visualization because this way I would be able 
 
 An interesting thought that came up when I was crafting this visualization is that, in order to improve on this graph, next time I can find some datasets on the wealth/income distributions throughout Chicago, and perhaps I can add those attributes to the current map visualization, and we would be able to see that whether the most troublesome areas of speed violations are located in more wealthy areas or the less affluent areas. Adding this aspect to the current visualization will add depth to it, and that aspect can later be used by the mayor to decide on how many cameras to install/how much raise in the fine.
 
-## Visualization #3 & Finding
+## Visualization #3 & Finding & Making-of
 For the third finding, I decided to merge the speed camera location dataset into the speed violation dataset, and first off I found that most of the speed camera went live in 2013-2015, and a few were added in 2018, but there weren't any cameras that went live in 2016 or 2017. Therefore I graphed the sum of violations grouped by year, against the number of cameras that were live for 2015-2018. 
 
-![visualization #3](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/count%20of%20camera%20vs%20total%20violation.png)
+![visualization #3](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/count%20of%20camera%20vs%20total%20violation-First.png)
 
 From the visualization, we can see that in 2016 and 2017 where there weren't any new cameras that went live, the sum of violations experienced steady decrease, but in 2018 when there are more cameras that went live, the slope actually becomes flatter, which makes sense because more cameras means there will be more violations that will get captured by these new cameras, and the effect of these new cameras will take some time before it appear.
 
@@ -46,7 +46,7 @@ Therefore, I would suggest to continuously increase the number of cameras throug
 
 
 ## Dashboard
-![dashboard](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/dashboard.png)
+![dashboard](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/dashboard-First.png)
 
 
 

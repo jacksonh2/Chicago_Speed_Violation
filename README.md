@@ -53,27 +53,29 @@ From this visualization we can see that the distribution of the top 10 cameras i
 A map would be the best for this visualization because this way I would be able to showcase where these cameras that catch the highest average violations are located and can group them by region, and thus give better suggestions to the mayors as where to tackle next. In order to improve from the first version of this visualization, I was originally thinking merging a wealth distribution dataset into the speed camera violation dataset to add that layer of wealth distribution to the map, however, after doing some research I found that there's actually a built-in feature in tableau that can do this. Using the features in the map layers, I was able to add the household income distribution, as well as streets and highways to further enrich the map and come up with more insights to better improve the ASE program. Before adding these map features, the map looked boring and didn't have much information, but now we can see just exactly where these cameras are located (next to which street/highway) and how is the neighborhood and how that might impact the driver behavior.
 
 ## Visualization #3 & Finding
-For the third finding, I decided to merge the speed camera location dataset into the speed violation dataset, and first off I found that most of the speed camera went live in 2013-2015, and a few were added in 2018, but there weren't any cameras that went live in 2016 or 2017. Therefore I graphed the sum of violations grouped by year, against the number of cameras that were live for 2015-2018. 
+For the third finding, I decided to merge the speed camera location dataset into the speed violation dataset, and first off I found that most of the speed camera went live in 2013-2015, and a few were added in 2018, but there weren't any cameras that went live in 2016 or 2017. Therefore I graphed the average number of violations grouped by year, against the number of cameras that were live for 2014-2018. 
 
-![visualization #3](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/count%20of%20camera%20vs%20total%20violation.png)
+![visualization #3](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/count%20of%20camera%20vs%20avg%20violation-Final.png)
 
-From the visualization, we can see that in 2016 and 2017 where there weren't any new cameras that went live, the sum of violations experienced steady decrease, but in 2018 when there are more cameras that went live, the slope actually becomes flatter, which makes sense because more cameras means there will be more violations that will get captured by these new cameras, and the effect of these new cameras will take some time before it appear.
+From the visualization, we can see that from 2014-2015, 7 new cameras are added and the average number of violations decreased at a rather steep rate. From 2015-2017 there weren't any new cameras that went live, the decreasing rate of the average number of violations became flatter. From 2017 to 2018, 11 new cameras went live. Though we didn't see a significant decrese in that year(2017-2018), the forecast suggests that even if the camera count remains at 155 through the year of 2019, we would see a steeper decrease in average number of violations through 2019. 
 
-Therefore, I would suggest to continuously increase the number of cameras throughout the future years to further strengthen this program, as the number of violations should decrease more rapidly with more cameras in place (after the initial upward sloping effect of more cameras = more violations).
+Therefore, I would suggest to continuously increase the number of cameras throughout the future years to further strengthen this program (within the budget), as the number of violations should decrease more rapidly with more cameras in place (after the initial upward sloping effect of more cameras = more violations).
+
+### Making-of and Improvement
+Again, the line graph was the best for this visualization because I wanted to show the changes in number of cameras and average number of violations together from 2014-2019. Previously I have used the sum of violations for each year, and the graph didn't look too satisfying because the lines were very close to each other and was hard to interpret. The trendline was also not very helpful so I have removed it from the final version of the visualization. To further strengthen my point, I also decided to include a forecast, to better illustrate my point.  
 
 
 
 
 ## Dashboard
-![dashboard](https://github.com/jacksonh2/First_Version--Individual-Project/blob/master/dashboard.png)
+![dashboard](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/dashboard-Final.png)
+In terms of the dashboard, I added a few interactive features, such as a slider filter to visualization #1, map zoom-in & out as well as a search bar to visualzation #2, and last but not least a camera drop down filter to visualization #3. 
 
 
 
-[tableau public-visualizations & dashboard](https://public.tableau.com/profile/jackson.hu8026#!/vizhome/Visualization1-individualproject/Dashboard1?publish=yes)
+[tableau public-visualizations & dashboard](https://public.tableau.com/profile/jackson.hu8026#!/vizhome/Visualization1-individualproject/ChicagoSpeedCameraViolationDashboard?publish=yes)
 
 
-## Roadmap
-A lot more could have been done to improve the visualizations that I have created so far. In reading the ASE program descriptions and doing research on the feedbacks on the ASE program, I found that there are some controversies about the program, suggesting that the cameras are operating at unauthorized hours and issuing tickets; for instance, the school's safety zone cameras should only opeate from monday to friday, but there have been various incidents where people were caught by the camera on the weekends. Though I attended to create a visualization on this matter, I wasn't able to finalize it because it was extremely hard to determine which cameras are in the school zone (monday-friday) and which ones are in the park zone(operates 7 days a week). I was able to find something like [list of safetyzone](https://www.chicago.gov/content/dam/city/depts/cdot/CSZ/ChildrensSafetyZoneList.pdf)but the address of the safety zone didn't exactly match the address of the cameras, thus making it difficult to merge the two datasets. For the second version, I would love to incorporate this aspect of the matter into my second visualization, to see whether these cameras with the highest average violations are located in school or park zone, and this can definitely advocate my analysis.
 
 
 ## References

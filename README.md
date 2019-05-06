@@ -1,14 +1,31 @@
-# First_Version--Individual-Project
-This is the first version of the MSIS 2629 Data Visualization individual project for spring 2019
-
+# Final_Version--Individual-Project
+This is the Final version of the MSIS 2629 Data Visualization individual project for spring 2019, if you want to see the first_version, please refer to [first_version](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/First_Version.md)
 
 
 ## Background about the dataset
-The dataset is taken from [Speed_Camera_Violations-Chicago Data Portal](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) and each record represents the number of violations occurred on a specific day taken by a specific speed camera, starting from July 2014 to April 2019. 
+The dataset is taken from [Speed_Camera_Violations-Chicago Data Portal](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) and each record represents the number of violations occurred on a specific day taken by a specific speed camera, starting from July 2014 to April 2019. The mayor of Chicago, Rahm Emanuel, has been extremely proactive in the automated speed enforcement in parks and schools to protect the kids. 
 
-The mayor of Chicago, Rahm Emanuel, has been extremely proactive in the automated speed enforcement in parks and schools to protect the kids. Every year new cameras are going live in the summer, and as of today there are 162 cameras live trying to catch people speeding in these safety areas.
+The Automated Speed Enforcement program's safe zone is described as below:
 
-I have also used the dataset on [speed camera locations-Chicago Data Portal](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h), which includes the date of which camera went live, which I later used to develop a visualization/finding.
+> The safety zone is desingated as 1/8th of a mile boundary around any Chicago parks or schools. The City ordinance establishing the Children’s Safety Zone program substantially narrows the hours and locations of automated speed enforcement that are allowed under state law
+
+The cameras' operation hours as well as the speed limit during those hours are:
+
+> The enforcement hours will be limited from 7 a.m. to 7 p.m. in safety zones around schools on chool days (Monday through Friday)
+
+> 7 a.m. to 4 p.m.: 20 miles per hour (mph) speed limit when children are present; and the posted speed limit when no children are present
+
+> 7 a.m. to 7 p.m.: The posted speed limit
+> The enforcement hours around parks will be limited to only those hours parks are open (typically *6 a.m. to 11 p.m., 7 days a week) with a 30 mph speed limit
+
+The violation fine regulation is listed below:
+
+> Only warnings will be issued for the first 30 days after cameras are newly-established in a safety zone
+The first time a vehicle owner is eligible to receive an actual ticket, they will instead receive a warning notice
+Fines for violations are $35 for vehicles traveling 6-10 mph over the posted speed limit while in a safety zone, and $100 for vehicles traveling 11 or more mph over the posted speed limit.
+
+
+In addition to the dataset with the violations, I have also used the dataset on [speed camera locations-Chicago Data Portal](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h), which includes the date of which camera went live, which I later used to develop a visualization/finding.
 
 For more information about the program and about speed camera violations, please refer to [city of chicago - ASE](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html) and [city of chicago - ASE FAQ](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement/automated_speed_enforcementfrequentlyaskedquestions.html).
 

@@ -1,6 +1,5 @@
-# First_Version--Individual-Project
-This is the first version of the MSIS 2629 Data Visualization individual project for spring 2019
-
+# Final_Version--Individual-Project
+This is the Final version of the MSIS 2629 Data Visualization individual project for spring 2019, if you want to see the first_version, please refer to [first_version](https://github.com/jacksonh2/Individual-Project-Chicago_Speed_Violation/blob/master/First_Version.md)
 
 
 ## Background about the dataset
